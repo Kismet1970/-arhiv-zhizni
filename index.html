@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>Архив жизни — Мобильный учебник</title>
+<style>
+:root{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text",Arial,sans-serif;color:#171717;background:#f5f5f7}
+*{box-sizing:border-box} body{margin:0;background:#f5f5f7}
+main{max-width:760px;margin:auto;padding:18px 16px 40px}
+h1{font-size:25px;margin:8px 0 5px} h2{font-size:20px;margin:20px 0 10px}
+.panel{background:#fff;border-radius:18px;padding:16px;margin:12px 0;box-shadow:0 1px 5px #00000012}
+button{border:0;border-radius:12px;padding:12px 15px;font-size:16px;background:#111;color:#fff;margin:6px 6px 0 0}
+button.secondary{background:#e9e9ed;color:#111}.item{display:flex;align-items:center;gap:10px;padding:14px 2px;border-bottom:1px solid #eee}
+.icon{font-size:22px;width:28px;text-align:center}.name{flex:1;font-size:16px}.small{font-size:13px;color:#666}
+.status{padding:11px 13px;border-radius:12px;background:#eee;margin-top:12px;white-space:pre-wrap}
+.error{background:#ffe9e9;color:#8b0000}.answer{display:none;margin-top:15px;padding-top:15px;border-top:1px solid #eee}
+.answer-label{font-size:13px;color:#666;margin-bottom:5px}.deck-title{font-size:22px;font-weight:700}
+.example{font-size:19px;line-height:1.45;margin-top:16px}.translation{font-size:17px;line-height:1.45;margin-top:10px;color:#555}
+audio{width:100%;margin-top:15px}.progress{font-size:13px;color:#666}.hidden{display:none}
+.prompt{font-size:19px;line-height:1.45;margin-top:16px}
+.edit-panel{display:none;margin-top:14px;padding-top:14px;border-top:1px solid #eee}.edit-panel.visible{display:block}.edit-label{font-size:13px;color:#666;margin:10px 0 5px}.edit-input{width:100%;font:inherit;font-size:17px;line-height:1.4;padding:10px 12px;border:1px solid #ccc;border-radius:10px;background:#fff}.edit-note{font-size:12px;color:#666;margin-top:8px}
+.card-image{display:none;width:100%;max-height:430px;object-fit:contain;margin-top:16px;border-radius:12px;background:#f0f0f2}.card-image.visible{display:block}
+</style>
+</head>
+<body>
+<main>
+<h1>Архив жизни</h1>
+<div class="small">Мобильный учебник</div>
+
+<section id="browser" class="panel">
+  <div style="display:flex;justify-content:space-between;align-items:center;gap:10px">
+    <h2 id="locationTitle">КОЛОДЫ</h2>
+    <button id="upBtn" class="secondary">Назад</button>
+  </div>
+  <div id="items"></div>
+  <div id="status" class="status">Загружаю колоды…</div>
+</section>
+
+<section id="study" class="panel hidden">
+  <div class="progress" id="progress"></div>
+  <div class="deck-title" id="cardTitle"></div>
+  <div class="small" id="cardMeta"></div>
+  <img id="cardImage" class="card-image" alt="" referrerpolicy="no-referrer">
+  <div id="prompt" class="prompt"></div>
+  <audio id="audio" controls preload="metadata"></audio>
+  <div id="answer" class="answer">
+    <div class="answer-label">Ответ</div>
+    <div id="answerText"></div>
+  </div>
+  <div style="margin-top:12px">
+    <button id="showBtn">Показать ответ</button>
+    <button id="repeatBtn" class="secondary">Повторить</button>
+    <button id="editBtn" class="secondary">Изменить</button>
+    <button id="knowBtn">Знаю</button>
+  </div>
+  <div id="editPanel" class="edit-panel">
+    <div class="edit-label">Заголовок</div>
+    <textarea id="editTitle" class="edit-input" rows="2"></textarea>
+    <div class="edit-label">Произведение / тема</div>
+    <textarea id="editWork" class="edit-input" rows="2"></textarea>
+    <div class="edit-label">Автор / художник</div>
+    <textarea id="editAuthor" class="edit-input" rows="2"></textarea>
+    <div class="edit-label">Вопрос / подсказка / значение</div>
+    <textarea id="editQuestion" class="edit-input" rows="3"></textarea>
+    <div class="edit-label">Основной ответ / пример</div>
+    <textarea id="editExample" class="edit-input" rows="3"></textarea>
+    <div class="edit-label">Перевод / пояснение</div>
+    <textarea id="editTranslation" class="edit-input" rows="3"></textarea>
+    <div>
+      <button id="saveEditBtn">Сохранить</button>
+      <button id="cancelEditBtn" class="secondary">Отмена</button>
+      <button id="resetEditBtn" class="secondary">Сбросить изменения</button>
+    </div>
+    <div class="edit-note">Изменения сохраняются только на этом iPhone в этом браузере и не меняют исходный JSON-файл колоды.</div>
+  </div>
+  </div>
+  <div>
+    <button id="prevBtn" class="secondary">←</button>
+    <button id="nextBtn">→</button>
+    <button id="backDeckBtn" class="secondary">К колодам</button>
+  </div>
+</section>
+</main>
+
+<script>
+(() => {
+const OWNER='Kismet1970', REPO='-arhiv-zhizni', BRANCH='main', DECK_ROOT='decks';
+const API_ROOT=`https://api.github.com/repos/${OWNER}/${REPO}/contents/`;
+const SITE_ROOT=`https://${OWNER.toLowerCase()}.github.io/${REPO}/`;
+
+// Обновляем установленную iPhone-версию приложения без переустановки иконки.
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js', {scope:'./'}).catch(()=>{});
+  });
+}
+let currentPath=DECK_ROOT,currentDeckPath='',currentDeckId='',pathStack=[],deck=null,cards=[],index=0;
+const EDITS_KEY='arhiv-zhizni-card-edits-v2';
+let cardEdits={};
+try{cardEdits=JSON.parse(localStorage.getItem(EDITS_KEY)||'{}')||{}}catch(e){cardEdits={}}
+function makeDeckId(path,name,downloadUrl){
+  return String(path||downloadUrl||name||'').trim();
+}
+function editKey(){return currentDeckId+'#'+index;}
+function getEdit(){return cardEdits[editKey()]||{};}
+function saveEdits(){
+  try{
+    localStorage.setItem(EDITS_KEY,JSON.stringify(cardEdits));
+    return true;
+  }catch(e){
+    alert('Не удалось сохранить изменения на этом iPhone.');
+    return false;
+  }
+}
+function currentValues(){
+  const c=cards[index]||{}, e=getEdit();
+  return {
+    title:e.title!==undefined?e.title:(c.title || ''),
+    work:e.work!==undefined?e.work:(c.work || ''),
+    author:e.author!==undefined?e.author:(c.author || c.artist || ''),
+    question:e.question!==undefined?e.question:(c.fame || c.question || c.example || c.title || ''),
+    example:e.example!==undefined?e.example:(c.example || c.answer || ''),
+    translation:e.translation!==undefined?e.translation:(c.exampleTranslation || c.answer || '')
+  };
+}
+const $=id=>document.getElementById(id);
+
+function setStatus(msg,error=false){
+  $('status').textContent=msg;
+  $('status').className='status'+(error?' error':'');
+}
+function encodePath(path){return path.split('/').map(encodeURIComponent).join('/');}
+async function githubJSON(path){
+  const r=await fetch(API_ROOT+encodePath(path)+`?ref=${encodeURIComponent(BRANCH)}`,{
+    cache:'no-store',headers:{'Accept':'application/vnd.github+json'}
+  });
+  if(!r.ok){
+    if(r.status===404) throw new Error('Папка «decks» ещё не создана.');
+    if(r.status===403) throw new Error('GitHub временно ограничил число запросов. Попробуйте позже.');
+    throw new Error('GitHub: HTTP '+r.status);
+  }
+  return await r.json();
+}
+async function loadFolder(path,title){
+  currentPath=path;$('locationTitle').textContent=title;$('items').innerHTML='';setStatus('Загрузка…');
+  try{renderFolder(await githubJSON(path));setStatus('Колоды доступны.')}
+  catch(e){$('items').innerHTML='';setStatus(e.message||String(e),true)}
+}
+function renderFolder(items){
+  const visible=items.filter(x=>x.type==='dir'||(x.type==='file'&&/\.json$/i.test(x.name)))
+    .sort((a,b)=>a.type!==b.type?(a.type==='dir'?-1:1):(a.name||'').localeCompare(b.name||'','ru'));
+  if(!visible.length){$('items').innerHTML='<div class="small">Здесь пока нет колод.</div>';return;}
+  for(const item of visible){
+    const row=document.createElement('div');row.className='item';
+    const icon=document.createElement('div');icon.className='icon';icon.textContent=item.type==='dir'?'📁':'📚';
+    const name=document.createElement('div');name.className='name';name.textContent=item.name;
+    const small=document.createElement('div');small.className='small';small.textContent=item.type==='dir'?'Папка':'JSON-колода';
+    name.appendChild(small);row.append(icon,name);
+    row.addEventListener('click',()=>{
+      if(item.type==='dir'){pathStack.push({path:currentPath,title:$('locationTitle').textContent});loadFolder(item.path,item.name)}
+      else openDeck(item.path,item.name,item.download_url);
+    });
+    $('items').appendChild(row);
+  }
+}
+$('upBtn').addEventListener('click',()=>{
+  if(!pathStack.length)return;
+  const prev=pathStack.pop();loadFolder(prev.path,prev.title);
+});
+
+async function openDeck(path,name,downloadUrl){
+  setStatus('Загружаю колоду…');
+  try{
+    // Для файлов используем прямой download_url, который GitHub
+    // возвращает вместе с записью файла. Это корректно работает
+    // с кириллицей, пробелами и другими символами в имени.
+    const url=downloadUrl || (SITE_ROOT+encodePath(path));
+    const r=await fetch(url,{cache:'no-store'});
+    if(!r.ok)throw new Error('Загрузка JSON: HTTP '+r.status);
+    const data=await r.json();
+    if(data.format!=='my-knowledge-deck-v1'||!Array.isArray(data.cards))
+      throw new Error('Файл загружен, но это не колода формата my-knowledge-deck-v1.');
+    deck=data;cards=data.cards;currentDeckPath=path;currentDeckId=makeDeckId(path,name,downloadUrl);index=0;
+    if(!cards.length)throw new Error('Колода пустая.');
+    $('browser').classList.add('hidden');$('study').classList.remove('hidden');showCard();
+  }catch(e){setStatus('Не удалось загрузить колоду.\n\n'+(e.message||String(e)),true)}
+}
+
+function showCard(){
+  if(!cards.length)return;
+  const c=cards[index]||{};
+  const e=getEdit();
+  const v=currentValues();
+  const isAudioCard=c.cardType==='audio';
+  $('progress').textContent=(deck.name||'Колода')+' · '+(index+1)+' / '+cards.length;
+  $('cardTitle').textContent=v.title;
+
+  // Для художественных карточек: художник, дата и музей.
+  // Для языковых карточек сохраняем прежнюю схему.
+  $('cardMeta').textContent = c.artist
+    ? [v.author,c.date,c.museum].filter(Boolean).join(' · ')
+    : [v.work,v.author,c.fame].filter(Boolean).join(' · ');
+
+  // Показываем изображение, если в карточке есть поле image.
+  const imageUrl = typeof c.image==='string' ? c.image.trim() : '';
+  $('cardImage').classList.remove('visible');
+  $('cardImage').removeAttribute('src');
+  if(imageUrl){
+    $('cardImage').alt=c.title||'Изображение';
+    $('cardImage').src=imageUrl;
+    $('cardImage').classList.add('visible');
+  }
+
+  // Для художественных карточек текст под изображением — описание/значение.
+  // Для языковых карточек — пример и перевод.
+  $('prompt').textContent=v.question;
+  const shownExample=v.example;
+  const shownTranslation=v.translation;
+  $('answerText').textContent=[shownExample,shownTranslation].filter(Boolean).join('\n');
+  $('answer').style.display='none';
+  $('editPanel').classList.remove('visible');
+
+  $('audio').pause();
+  $('audio').removeAttribute('src');
+  if(typeof c.audio==='string'){
+    const audioUrl=c.audio.trim();
+    if(audioUrl.startsWith('data:audio/') || audioUrl.startsWith('http://') || audioUrl.startsWith('https://')){
+      $('audio').src=audioUrl;
+      $('audio').load();
+    }
+  }
+}
+$('showBtn').onclick=()=>{$('answer').style.display='block';};
+$('editBtn').onclick=()=>{
+  const v=currentValues();
+  $('editTitle').value=v.title;
+  $('editWork').value=v.work;
+  $('editAuthor').value=v.author;
+  $('editQuestion').value=v.question;
+  $('editExample').value=v.example;
+  $('editTranslation').value=v.translation;
+  $('editPanel').classList.add('visible');
+};
+$('cancelEditBtn').onclick=()=>{$('editPanel').classList.remove('visible');};
+$('saveEditBtn').onclick=()=>{
+  const edited={
+    title:$('editTitle').value,
+    work:$('editWork').value,
+    author:$('editAuthor').value,
+    question:$('editQuestion').value,
+    example:$('editExample').value,
+    translation:$('editTranslation').value
+  };
+  // Сразу меняем текущую карточку в памяти и одновременно сохраняем копию.
+  // Это гарантирует, что результат виден и после перехода между карточками,
+  // и после повторного открытия этой колоды.
+  cardEdits[editKey()]=edited;
+  Object.assign(cards[index],{
+    title:edited.title,
+    work:edited.work,
+    author:edited.author,
+    artist:cards[index].artist!==undefined?edited.author:cards[index].artist,
+    fame:edited.question,
+    question:edited.question,
+    example:edited.example,
+    answer:cards[index].answer!==undefined?edited.translation:cards[index].answer,
+    exampleTranslation:edited.translation
+  });
+  if(!saveEdits()) return;
+  showCard();
+  $('answer').style.display='block';
+};
+$('resetEditBtn').onclick=()=>{
+  delete cardEdits[editKey()];
+  saveEdits();
+  showCard();
+};
+$('repeatBtn').onclick=()=>showCard();
+$('knowBtn').onclick=()=>{
+  if(index<cards.length-1){index++;showCard()}else alert('Колода закончена.');
+};
+$('prevBtn').onclick=()=>{if(index>0){index--;showCard()}};
+$('nextBtn').onclick=()=>{if(index<cards.length-1){index++;showCard()}};
+$('backDeckBtn').onclick=()=>{
+  $('study').classList.add('hidden');$('browser').classList.remove('hidden');
+  loadFolder(currentPath,$('locationTitle').textContent);
+};
+loadFolder(DECK_ROOT,'КОЛОДЫ');
+})();
+</script>
+</body>
+</html>
