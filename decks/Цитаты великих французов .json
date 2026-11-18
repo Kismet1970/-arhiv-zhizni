@@ -1,0 +1,506 @@
+{
+  "format": "my-knowledge-deck-v1",
+  "name": "Французский язык — 50 цитат великих французов",
+  "cards": [
+    {
+      "cardType": "text",
+      "title": "Je pense, donc je suis.",
+      "work": "Discours de la méthode",
+      "author": "René Descartes",
+      "fame": "Жё панс, донк жё сюи.",
+      "example": "Мышление — доказательство существования мыслящего человека.",
+      "exampleTranslation": "Я мыслю, следовательно, существую.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Le bon sens est la chose du monde la mieux partagée.",
+      "work": "Discours de la méthode",
+      "author": "René Descartes",
+      "fame": "Лё бон сан э ля шоз дю монд ля мьё партáжэ.",
+      "example": "Ироничное замечание: почти каждый уверен, что здравого смысла у него достаточно.",
+      "exampleTranslation": "Здравый смысл — вещь в мире, распределённая лучше всего.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Ce n'est pas assez d'avoir l'esprit bon, mais le principal est de l'appliquer bien.",
+      "work": "Discours de la méthode",
+      "author": "René Descartes",
+      "fame": "Сё нэ па асэ давуар лэспри бон, мэ лё прэнсипаль э дё лапликэ бьен.",
+      "example": "Способности важны, но решает умение ими пользоваться.",
+      "exampleTranslation": "Недостаточно иметь хороший ум; главное — правильно его применять.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Le cœur a ses raisons que la raison ne connaît point.",
+      "work": "Pensées",
+      "author": "Blaise Pascal",
+      "fame": "Лё кёр а сэ рэзон кё ля рэзон нё конэ пуэн.",
+      "example": "Чувства не всегда объясняются логикой.",
+      "exampleTranslation": "У сердца есть свои причины, которых разум не знает.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "L'homme n'est qu'un roseau, le plus faible de la nature ; mais c'est un roseau pensant.",
+      "work": "Pensées",
+      "author": "Blaise Pascal",
+      "fame": "Лом нэ кэн розо, лё плю фэбль дё ля натюр; мэ сэ тэн розо пансáн.",
+      "example": "Человек физически хрупок, но обладает силой мысли.",
+      "exampleTranslation": "Человек — слабый тростник природы, но тростник мыслящий.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Que sais-je ?",
+      "work": "Essais",
+      "author": "Michel de Montaigne",
+      "fame": "Кё сэ жё?",
+      "example": "Формула сомнения и интеллектуальной честности.",
+      "exampleTranslation": "Что я знаю?",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Il faut cultiver notre jardin.",
+      "work": "Candide",
+      "author": "Voltaire",
+      "fame": "Иль фо культивэ нотр гардэн.",
+      "example": "Вместо пустых рассуждений — заниматься своим делом и жизнью.",
+      "exampleTranslation": "Нужно возделывать свой сад.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Le mieux est l'ennemi du bien.",
+      "work": "Formule souvent citée dans la tradition voltairienne",
+      "author": "Voltaire",
+      "fame": "Лё мьё э лэнэми дю бьен.",
+      "example": "Погоня за совершенством может помешать сделать полезное и достаточное.",
+      "exampleTranslation": "Лучшее — враг хорошего.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Il faut manger pour vivre, et non pas vivre pour manger.",
+      "work": "L'Avare",
+      "author": "Molière",
+      "fame": "Иль фо манжэ пур вивр, э нон па вивр пур манжэ.",
+      "example": "Не превращайте потребление в смысл жизни.",
+      "exampleTranslation": "Нужно есть, чтобы жить, а не жить, чтобы есть.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "L'hypocrisie est un hommage que le vice rend à la vertu.",
+      "work": "Maximes",
+      "author": "François de La Rochefoucauld",
+      "fame": "ЛипокризИ э тэн омаж кё лё вис рэн а ля вертю.",
+      "example": "Лицемер, скрывая порок, всё же признаёт ценность добродетели.",
+      "exampleTranslation": "Лицемерие — дань, которую порок отдаёт добродетели.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "À vaincre sans péril, on triomphe sans gloire.",
+      "work": "Le Cid",
+      "author": "Pierre Corneille",
+      "fame": "А венкр сан пэриль, он триомф сан глуар.",
+      "example": "Победа без испытания не приносит настоящей славы.",
+      "exampleTranslation": "Побеждая без риска, побеждают без славы.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "La raison du plus fort est toujours la meilleure.",
+      "work": "Le Loup et l'Agneau",
+      "author": "Jean de La Fontaine",
+      "fame": "Ля рэзон дю плю фор э тужур ля мьёр.",
+      "example": "Ирония над тем, как сила присваивает себе право быть правой.",
+      "exampleTranslation": "Правда сильнейшего всегда оказывается «лучшей».",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Patience et longueur de temps font plus que force ni que rage.",
+      "work": "Le Lion et le Rat",
+      "author": "Jean de La Fontaine",
+      "fame": "Пасьянс э лонгёр дё тан фон плю кё фор ни кё раж.",
+      "example": "Спокойная настойчивость часто эффективнее грубой силы.",
+      "exampleTranslation": "Терпение и время делают больше, чем сила и ярость.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Ce qui se conçoit bien s'énonce clairement.",
+      "work": "L'Art poétique",
+      "author": "Nicolas Boileau",
+      "fame": "Сё ки сё консу́а бьен сэнонс клэрман.",
+      "example": "Ясная речь начинается с ясной мысли.",
+      "exampleTranslation": "То, что хорошо понимается, ясно выражается.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Pour qu'on ne puisse abuser du pouvoir, il faut que le pouvoir arrête le pouvoir.",
+      "work": "De l'esprit des lois",
+      "author": "Montesquieu",
+      "fame": "Пур кон нё пюис абюзэ дю пувуар, иль фо кё лё пувуар арэт лё пувуар.",
+      "example": "Принцип разделения властей и взаимного контроля.",
+      "exampleTranslation": "Чтобы властью нельзя было злоупотреблять, власть должна сдерживать власть.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "La liberté est le droit de faire tout ce que les lois permettent.",
+      "work": "De l'esprit des lois",
+      "author": "Montesquieu",
+      "fame": "Ля либэртэ э лё друа дё фэр ту сё кё лэ лу пэрмэт.",
+      "example": "Свобода не равна произволу: она существует в рамках закона.",
+      "exampleTranslation": "Свобода — право делать всё, что дозволяют законы.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "L'homme est né libre, et partout il est dans les fers.",
+      "work": "Du contrat social",
+      "author": "Jean-Jacques Rousseau",
+      "fame": "Лом э нэ либр, э парту иль э дан лэ фэр.",
+      "example": "Руссо ставит вопрос о том, почему общество ограничивает природную свободу человека.",
+      "exampleTranslation": "Человек рождается свободным, но повсюду он в цепях.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Renoncer à sa liberté, c'est renoncer à sa qualité d'homme.",
+      "work": "Du contrat social",
+      "author": "Jean-Jacques Rousseau",
+      "fame": "Рёнонсэ а са либэртэ, сэ рёнонсэ а са калитэ дом.",
+      "example": "Свобода — неотъемлемая часть человеческого достоинства.",
+      "exampleTranslation": "Отказаться от свободы — значит отказаться от человеческого достоинства.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Sans la liberté de blâmer, il n'est point d'éloge flatteur.",
+      "work": "Le Mariage de Figaro",
+      "author": "Beaumarchais",
+      "fame": "Сан ля либэртэ дё блэмэ, иль нэ пуэн дэлож флэтёр.",
+      "example": "Похвала ценна только там, где критика не запрещена.",
+      "exampleTranslation": "Без свободы критиковать нет искренней похвалы.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "De l'audace, encore de l'audace, toujours de l'audace !",
+      "work": "Discours du 2 septembre 1792",
+      "author": "Georges Danton",
+      "fame": "Дё лода́с, анкор дё лода́с, тужур дё лода́с!",
+      "example": "Призыв к решительности перед лицом опасности.",
+      "exampleTranslation": "Смелость, ещё смелость, всегда смелость!",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Tous pour un, un pour tous.",
+      "work": "Les Trois Mousquetaires",
+      "author": "Alexandre Dumas",
+      "fame": "Ту пур эн, эн пур ту.",
+      "example": "Девиз дружбы, верности и взаимной поддержки мушкетёров.",
+      "exampleTranslation": "Все за одного, один за всех.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Ceux qui vivent, ce sont ceux qui luttent.",
+      "work": "Les Châtiments",
+      "author": "Victor Hugo",
+      "fame": "Сё ки вив, сё сон сё ки лю́т.",
+      "example": "Жизнь требует участия, усилия и борьбы за важное.",
+      "exampleTranslation": "Живут те, кто борется.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "On résiste à l'invasion des armées ; on ne résiste pas à l'invasion des idées.",
+      "work": "Histoire d'un crime",
+      "author": "Victor Hugo",
+      "fame": "Он рэзист а лэнвазион дэ армэ; он нё рэзист па а лэнвазион дэ идэ.",
+      "example": "Идеи способны менять общество сильнее военной силы.",
+      "exampleTranslation": "Можно сопротивляться вторжению армий, но нельзя сопротивляться вторжению идей.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Le hasard ne favorise que les esprits préparés.",
+      "work": "Discours de Lille, 1854",
+      "author": "Louis Pasteur",
+      "fame": "Лё азар нё фавориз кё лэ эспри прэпарэ.",
+      "example": "Удача чаще помогает тому, кто заранее учился и готовился.",
+      "exampleTranslation": "Случай благоприятствует лишь подготовленным умам.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Le courage, c'est de chercher la vérité et de la dire.",
+      "work": "Discours à la jeunesse, 1903",
+      "author": "Jean Jaurès",
+      "fame": "Лё кураж, сэ дё шэршэ ля вэри-тэ э дё ля дир.",
+      "example": "Смелость — не только поступок, но и честность перед правдой.",
+      "exampleTranslation": "Мужество — искать правду и говорить её.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Le véritable voyage de découverte ne consiste pas à chercher de nouveaux paysages, mais à avoir de nouveaux yeux.",
+      "work": "La Prisonnière",
+      "author": "Marcel Proust",
+      "fame": "Лё вэритабль вуаяж дё дэкувэрт нё консист па а шэршэ дё нуво пэйзаж, мэ а авуар дё нуво зьё.",
+      "example": "Меняться может не мир вокруг, а наше восприятие мира.",
+      "exampleTranslation": "Настоящее путешествие открытий — не искать новые пейзажи, а обрести новый взгляд.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Le tact dans l'audace, c'est de savoir jusqu'où on peut aller trop loin.",
+      "work": "Le Rappel à l'ordre",
+      "author": "Jean Cocteau",
+      "fame": "Лё так дан лода́с, сэ дё савуар жюско у он пё алэ тропуэн.",
+      "example": "Смелость требует чувства меры и понимания границ.",
+      "exampleTranslation": "Тактичность в смелости — знать, насколько далеко можно зайти, не переходя границы.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Penser, c'est dire non.",
+      "work": "Propos",
+      "author": "Alain (Émile Chartier)",
+      "fame": "Пансэ, сэ дир нон.",
+      "example": "Мышление начинается с проверки, сомнения и отказа принимать всё на веру.",
+      "exampleTranslation": "Мыслить — значит говорить «нет».",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Le vent se lève !… Il faut tenter de vivre !",
+      "work": "Le Cimetière marin",
+      "author": "Paul Valéry",
+      "fame": "Лё ван сё лэв! Иль фо тантэ дё вивр!",
+      "example": "Поэтический призыв не отступать перед жизнью и действовать.",
+      "exampleTranslation": "Ветер поднимается! Нужно попытаться жить!",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Il faut exiger de chacun ce que chacun peut donner.",
+      "work": "Le Petit Prince",
+      "author": "Antoine de Saint-Exupéry",
+      "fame": "Иль фо экзижэ дё шакэн сё кё шакэн пё донэ.",
+      "example": "Справедливое требование учитывает реальные возможности человека.",
+      "exampleTranslation": "Нужно требовать от каждого то, что каждый способен дать.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "L'essentiel est invisible pour les yeux.",
+      "work": "Le Petit Prince",
+      "author": "Antoine de Saint-Exupéry",
+      "fame": "Лэссансьель э инвизибль пур лэ зьё.",
+      "example": "Ценности, чувства и смысл не всегда видны внешне.",
+      "exampleTranslation": "Самое главное невидимо для глаз.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Mal nommer les choses, c'est ajouter au malheur du monde.",
+      "work": "Sur une philosophie de l'expression, 1944",
+      "author": "Albert Camus",
+      "fame": "Маль номэ лэ шоз, сэ ажутэ о малёр дю монд.",
+      "example": "Точность языка важна: ложные слова искажают реальность.",
+      "exampleTranslation": "Неправильно называть вещи — значит добавлять несчастья миру.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Il faut imaginer Sisyphe heureux.",
+      "work": "Le Mythe de Sisyphe",
+      "author": "Albert Camus",
+      "fame": "Иль фо имажинэ Сизиф ёрё.",
+      "example": "Даже в бессмысленном, повторяющемся труде человек может найти внутреннюю свободу.",
+      "exampleTranslation": "Нужно представить Сизифа счастливым.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "La véritable générosité envers l'avenir consiste à tout donner au présent.",
+      "work": "L'Homme révolté",
+      "author": "Albert Camus",
+      "fame": "Ля вэритабль женэрозитэ анвэр лаванир консист а ту донэ о прэзан.",
+      "example": "Будущее создаётся тем, как мы живём и действуем сегодня.",
+      "exampleTranslation": "Истинная щедрость к будущему состоит в том, чтобы всё отдавать настоящему.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "L'enfer, c'est les autres.",
+      "work": "Huis clos",
+      "author": "Jean-Paul Sartre",
+      "fame": "Ланфэр, сэ лэзотр.",
+      "example": "Короткая формула о том, как чужой взгляд и отношения могут стать мучительным ограничением.",
+      "exampleTranslation": "Ад — это другие.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "L'homme est condamné à être libre.",
+      "work": "L'existentialisme est un humanisme",
+      "author": "Jean-Paul Sartre",
+      "fame": "Лом э кондамнэ а этр либр.",
+      "example": "Мы не можем избежать выбора и ответственности за свои решения.",
+      "exampleTranslation": "Человек обречён быть свободным.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "On ne naît pas femme : on le devient.",
+      "work": "Le Deuxième Sexe",
+      "author": "Simone de Beauvoir",
+      "fame": "Он нё нэ па фам, он лё двьен.",
+      "example": "Идея о том, что социальная роль женщины формируется обществом и жизнью.",
+      "exampleTranslation": "Женщиной не рождаются — ею становятся.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "L'attention est la forme la plus rare et la plus pure de la générosité.",
+      "work": "Lettre à Joë Bousquet",
+      "author": "Simone Weil",
+      "fame": "Латансйон э ля форм ля плю рар э ля плю пюр дё ля женэрозитэ.",
+      "example": "Подлинная забота начинается с внимательного присутствия рядом с другим.",
+      "exampleTranslation": "Внимание — самая редкая и чистая форма щедрости.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Aimer, ce n'est pas se regarder l'un l'autre, c'est regarder ensemble dans la même direction.",
+      "work": "Terre des hommes",
+      "author": "Antoine de Saint-Exupéry",
+      "fame": "Эмэ, сё нэ па сё рэгардэ лэн лотр, сэ рэгардэ ансанбль дан ля мэм дирэксьон.",
+      "example": "Любовь — не только чувство, но и общность пути и целей.",
+      "exampleTranslation": "Любить — не смотреть друг на друга, а вместе смотреть в одном направлении.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Il y a dans les hommes plus de choses à admirer que de choses à mépriser.",
+      "work": "La Peste",
+      "author": "Albert Camus",
+      "fame": "Иль я дан лэ зом плю дё шоз а адмирэ кё дё шоз а мэпризэ.",
+      "example": "Камю предлагает смотреть на людей не только через их недостатки.",
+      "exampleTranslation": "В людях больше того, чем можно восхищаться, чем того, что можно презирать.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "La seule façon de lutter contre la peste, c'est l'honnêteté.",
+      "work": "La Peste",
+      "author": "Albert Camus",
+      "fame": "Ля сёль фасон дё лютэ контр ля пэст, сэ лонэтэтэ.",
+      "example": "Честность — моральная опора в условиях страха и бедствия.",
+      "exampleTranslation": "Единственный способ бороться с чумой — честность.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Qu'est-ce qu'un homme révolté ? Un homme qui dit non.",
+      "work": "L'Homme révolté",
+      "author": "Albert Camus",
+      "fame": "Кэскэн ом рэволтэ? Эн ом ки ди нон.",
+      "example": "Бунт начинается с отказа мириться с унижением и несправедливостью.",
+      "exampleTranslation": "Что такое бунтующий человек? Человек, который говорит «нет». ",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Je me révolte, donc nous sommes.",
+      "work": "L'Homme révolté",
+      "author": "Albert Camus",
+      "fame": "Жё мё рэволт, донк ну сом.",
+      "example": "Сопротивление несправедливости связывает людей и создаёт солидарность.",
+      "exampleTranslation": "Я бунтую, следовательно, мы существуем.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Il n'y a qu'un problème philosophique vraiment sérieux : c'est le suicide.",
+      "work": "Le Mythe de Sisyphe",
+      "author": "Albert Camus",
+      "fame": "Иль нья кэн проблем философик врэман сериё: сэ лё сюисид.",
+      "example": "Камю начинает философию с вопроса о том, стоит ли жизнь того, чтобы жить.",
+      "exampleTranslation": "Есть лишь одна по-настоящему серьёзная философская проблема — самоубийство.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Au milieu de l'hiver, j'ai découvert en moi un invincible été.",
+      "work": "Retour à Tipasa, L'Été",
+      "author": "Albert Camus",
+      "fame": "О мидьё дё ливэр, жэ декувэр ан муа эн инвинсибль этэ.",
+      "example": "Образ внутренней стойкости и надежды, не зависящих от внешних обстоятельств.",
+      "exampleTranslation": "Посреди зимы я обнаружил в себе непобедимое лето.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Un homme, ça s'empêche.",
+      "work": "Le Premier Homme",
+      "author": "Albert Camus",
+      "fame": "Эн ом, са санпэш.",
+      "example": "Краткая мысль о самоконтроле и нравственной ответственности.",
+      "exampleTranslation": "Человек умеет себя сдерживать.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "L'art est un anti-destin.",
+      "work": "Les Voix du silence",
+      "author": "André Malraux",
+      "fame": "Лар э эн анти-дэстэн.",
+      "example": "Искусство помогает человеку преодолеть ограниченность судьбы и времени.",
+      "exampleTranslation": "Искусство — это против судьбы.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "La bêtise consiste à vouloir conclure.",
+      "work": "Correspondance",
+      "author": "Gustave Flaubert",
+      "fame": "Ля бэтИ консист а вулуар конклюр.",
+      "example": "Флобер предупреждает против поспешных окончательных выводов.",
+      "exampleTranslation": "Глупость заключается в желании поставить окончательную точку.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Le secret de l'ennui est celui de tout dire.",
+      "work": "Discours en vers sur l'homme",
+      "author": "Voltaire",
+      "fame": "Лё сёкрё дё ланюи э сёльюи дё ту дир.",
+      "example": "Умение быть кратким и выбирать главное делает речь интересной.",
+      "exampleTranslation": "Секрет скуки — говорить обо всём.",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Tout comprendre rend très indulgent.",
+      "work": "Corinne ou l'Italie",
+      "author": "Madame de Staël",
+      "fame": "Туコンпрандр ран трэ зандюльжан.",
+      "example": "Чем глубже понимаешь причины поступков, тем меньше склонен к поспешному осуждению.",
+      "exampleTranslation": "Понимание делает человека очень снисходительным.",
+      "audio": ""
+    }
+  ]
+}
