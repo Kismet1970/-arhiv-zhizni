@@ -1,0 +1,607 @@
+{
+  "format": "my-knowledge-deck-v1",
+  "name": "Французские крылатые выражения и афоризмы — 60",
+  "description": "60 французских идиом, пословиц и афоризмов для разговорного употребления и культурного ориентирования. Русская транскрипция приблизительная.",
+  "cards": [
+    {
+      "cardType": "text",
+      "title": "Il ne faut pas vendre la peau de l’ours avant de l’avoir tué.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Пословица",
+      "fame": "Иль нё фо па вандр ла по дё лурс аван дё лавуар тюэ́.",
+      "example": "Не продавай шкуру медведя, пока не убил его.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "À chacun son métier, les vaches seront bien gardées.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Пословица",
+      "fame": "А шакэн сон мэтье́, ле ваш сёрон бьен гардэ́.",
+      "example": "Каждому своё дело — и коровы будут хорошо присмотрены.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Qui vivra verra.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Пословица",
+      "fame": "Ки вивра́, вэрра́.",
+      "example": "Кто будет жить, тот увидит.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "On ne fait pas d’omelette sans casser des œufs.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Пословица",
+      "fame": "Он нё фэ па домлет сан касэ дэ зё́.",
+      "example": "Без разбитых яиц омлет не сделать.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Il n’y a pas de fumée sans feu.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Пословица",
+      "fame": "Иль нья па дё фюмэ сан фё́.",
+      "example": "Нет дыма без огня.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Chacun voit midi à sa porte.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Пословица",
+      "fame": "Шакэн вуа миди а са по́рт.",
+      "example": "Каждый видит полдень у своей двери.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "L’habit ne fait pas le moine.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Пословица",
+      "fame": "Лаб́и нё фэ па лё муа́н.",
+      "example": "Одежда не делает монаха.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Il faut battre le fer tant qu’il est chaud.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Пословица",
+      "fame": "Иль фо батр лё фэр тан киль э шо́.",
+      "example": "Ковать железо, пока горячо.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Les cordonniers sont les plus mal chaussés.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Пословица",
+      "fame": "Ле кордонье сон ле плю мал шосэ́.",
+      "example": "Сапожники ходят в самой плохой обуви.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "La nuit porte conseil.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Пословица",
+      "fame": "Ла нюи порт консэ́й.",
+      "example": "Ночь приносит совет.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Quand on parle du loup, on en voit la queue.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Пословица",
+      "fame": "Кан он парль дю лу́, он ан вуа ла кё́.",
+      "example": "Когда говорят о волке, видят его хвост.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Il ne faut pas mettre tous ses œufs dans le même panier.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Пословица",
+      "fame": "Иль нё фо па мэтр ту сэз ё дан лё мэм панье́.",
+      "example": "Не клади все яйца в одну корзину.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Avoir le beurre et l’argent du beurre.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Идиома",
+      "fame": "Авуа́р лё бёр э ларжан дю бё́р.",
+      "example": "Получить и масло, и деньги за масло.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Faire d’une pierre deux coups.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Идиома",
+      "fame": "Фэр дюн пьэр дё ку́.",
+      "example": "Одним камнем сделать два удара.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Ce n’est pas la mer à boire.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Идиома",
+      "fame": "Сё нэ па ла мэр а буа́р.",
+      "example": "Это не море выпить.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Être au bout du rouleau.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Идиома",
+      "fame": "Этр о бу дю руло́.",
+      "example": "Быть на конце рулона.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Mettre les pieds dans le plat.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Идиома",
+      "fame": "Мэтр ле пьед дан лё пла́.",
+      "example": "Поставить ноги в блюдо.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Appeler un chat un chat.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Идиома",
+      "fame": "Апэлэ эн ша эн ша́.",
+      "example": "Называть кошку кошкой.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Revenons à nos moutons.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Средневековая фарсовая формула",
+      "fame": "Рёвёнон а но муто́н.",
+      "example": "Вернёмся к нашим овцам.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Prendre la mouche.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Идиома",
+      "fame": "Прандр ла му́ш.",
+      "example": "Поймать муху.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Avoir un poil dans la main.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Идиома",
+      "fame": "Авуа́р эн пуаль дан ла мэ́н.",
+      "example": "Иметь волос на ладони.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Poser un lapin.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Идиома",
+      "fame": "Позэ эн лапэ́н.",
+      "example": "Поставить кролика.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Ça ne casse pas trois pattes à un canard.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Идиома",
+      "fame": "Са нё кас па труа пат а эн кана́р.",
+      "example": "Это не ломает утке три лапы.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Il y a anguille sous roche.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Идиома",
+      "fame": "Иль я анги́й сю ро́ш.",
+      "example": "Под камнем угорь.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Tirer son épingle du jeu.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Идиома",
+      "fame": "Тирэ сон эпэнгль дю жё́.",
+      "example": "Вытащить свою булавку из игры.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Se mettre le doigt dans l’œil.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Идиома",
+      "fame": "Сё мэтр лё дуа дан лё́й.",
+      "example": "Всунуть палец в глаз.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Être dans de beaux draps.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Идиома",
+      "fame": "Этр дан дё бо дра́.",
+      "example": "Оказаться в красивых простынях.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "En faire tout un fromage.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Идиома",
+      "fame": "Ан фэр ту эн фрома́ж.",
+      "example": "Сделать из этого целый сыр.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "La raison du plus fort est toujours la meilleure.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Лафонтен, «Волк и ягнёнок»",
+      "fame": "Ла рэзон дю плю фор э тужур ла мэйё́р.",
+      "example": "Правота сильнейшего всегда оказывается лучшей.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Patience et longueur de temps font plus que force ni que rage.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Лафонтен, «Лев и мышь»",
+      "fame": "Пасьянс э лонгёр дё тан фон плю кё форс ни кё ра́ж.",
+      "example": "Терпение и время делают больше, чем сила и ярость.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "On a souvent besoin d’un plus petit que soi.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Лафонтен, «Лев и мышь»",
+      "fame": "Он а суван бёзуа́н дэн плю пёти кё суа́.",
+      "example": "Часто нам нужен кто-то меньше нас.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Tout flatteur vit aux dépens de celui qui l’écoute.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Лафонтен, «Ворон и лисица»",
+      "fame": "Ту флатёр ви о депан дё сёлюи ки леку́т.",
+      "example": "Льстец живёт за счёт того, кто его слушает.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Tel est pris qui croyait prendre.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Французская поговорка",
+      "fame": "Тэль э при ки круайэ пра́ндр.",
+      "example": "Попался тот, кто думал поймать.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "L’avarice perd tout en voulant tout gagner.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Лафонтен, «Курица, несущая золотые яйца»",
+      "fame": "Лаварис пер ту ан вулан ту ганье́.",
+      "example": "Скупость теряет всё, желая всё приобрести.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Le mieux est l’ennemi du bien.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Вольтер, традиционная формула",
+      "fame": "Лё мьё э ланеми дю бье́н.",
+      "example": "Лучшее — враг хорошего.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Il faut cultiver notre jardin.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Вольтер, «Кандид»",
+      "fame": "Иль фо культивэ нотр жардэ́н.",
+      "example": "Нужно возделывать наш сад.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Le superflu, chose très nécessaire.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Вольтер, «Le Mondain»",
+      "fame": "Лё сюперфлю́, шоз трэ нэсэсэ́р.",
+      "example": "Излишек — вещь очень необходимая.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "L’hypocrisie est un hommage que le vice rend à la vertu.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Ларошфуко",
+      "fame": "Липокризи э эн оммаж кё лё вис рон а ла вертю́.",
+      "example": "Лицемерие — дань, которую порок отдаёт добродетели.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Nous avons tous assez de force pour supporter les maux d’autrui.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Ларошфуко",
+      "fame": "Нуз авон ту асэ дё форс пур супортэ ле мо д’отри́.",
+      "example": "У всех нас достаточно сил переносить чужие беды.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Le cœur a ses raisons que la raison ne connaît point.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Паскаль, «Мысли»",
+      "fame": "Лё кёр а сэ рэзон кё ла рэзон нё конэ пуэ́н.",
+      "example": "У сердца есть причины, которых разум не знает.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Nous sommes embarqués.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Паскаль, «Мысли»",
+      "fame": "Нуз сом анбаркэ́.",
+      "example": "Мы уже на борту.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Il faut manger pour vivre, et non pas vivre pour manger.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Мольер, «Скупой»",
+      "fame": "Иль фо манжэ пур ви́вр, э нон па вивр пур манжэ́.",
+      "example": "Нужно есть, чтобы жить, а не жить, чтобы есть.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Couvrez ce sein que je ne saurais voir.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Мольер, «Тартюф»",
+      "fame": "Куврэ сё сэн кё жё нё сэрэ вуа́р.",
+      "example": "Прикройте эту грудь, которую я не могу видеть.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Je prends mon bien où je le trouve.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Мольер, традиционно цитируемая формула",
+      "fame": "Жё пран мон бьен у жё лё тру́в.",
+      "example": "Я беру своё добро там, где его нахожу.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "L’homme est né libre, et partout il est dans les fers.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Руссо, «Об общественном договоре»",
+      "fame": "Лом э нэ ли́бр, э парту иль э дан ле фэ́р.",
+      "example": "Человек рождается свободным, но повсюду он в цепях.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Pour qu’on ne puisse abuser du pouvoir, il faut que le pouvoir arrête le pouvoir.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Монтескьё, «О духе законов»",
+      "fame": "Пур кон нё пюис абюзэ дю пувуа́р, иль фо кё лё пувуар арэт лё пувуа́р.",
+      "example": "Чтобы властью нельзя было злоупотреблять, власть должна сдерживать власть.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Les lois inutiles affaiblissent les lois nécessaires.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Монтескьё",
+      "fame": "Ле луи инютиль афэблис ле луи нэсэсэ́р.",
+      "example": "Бесполезные законы ослабляют необходимые.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "L’enfer, c’est les autres.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Сартр, «За закрытыми дверями»",
+      "fame": "Ланфэ́р, сэ ле о́тр.",
+      "example": "Ад — это другие.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Il faut imaginer Sisyphe heureux.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Камю, «Миф о Сизифе»",
+      "fame": "Иль фо имажинэ Сизиф ёрё́.",
+      "example": "Нужно представить Сизифа счастливым.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Mal nommer les choses, c’est ajouter au malheur du monde.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Камю, публицистическая формула",
+      "fame": "Маль номэ ле шо́з, сэ аджутэ о малёр дю мо́нд.",
+      "example": "Неправильно называть вещи — значит добавлять несчастье миру.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Le tact dans l’audace, c’est de savoir jusqu’où aller trop loin.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Жан Кокто",
+      "fame": "Лё так дан лода́́с, сэ дё савуар жюско у алэ тро луэ́н.",
+      "example": "Тактичность в дерзости — знать, насколько далеко можно зайти.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Les miroirs feraient bien de réfléchir avant de renvoyer les images.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Жан Кокто",
+      "fame": "Ле мируар фэрэ бьен дё рэфлешир аван дё рёнвуайэ ле има́ж.",
+      "example": "Зеркалам стоило бы подумать, прежде чем отражать изображения.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Si ceux qui disent du mal de moi savaient ce que je pense d’eux, ils en diraient davantage.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Саша Гитри",
+      "fame": "Си сё ки диз дю маль дё муа савэ сё кё жё панс дё́, иль ан дирэ даванта́ж.",
+      "example": "Если бы те, кто плохо обо мне говорит, знали, что я думаю о них, говорили бы ещё больше.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "La prévision est difficile, surtout lorsqu’elle concerne l’avenir.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Пьер Дак, приписываемая цитата",
+      "fame": "Ла прэвизьон э дифиси́ль, сюртут лорскэль консэрн л’авни́р.",
+      "example": "Предсказание трудно, особенно когда касается будущего.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Rien n’est moins sûr que l’incertain.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Пьер Дак, приписываемая цитата",
+      "fame": "Рьен нэ мэн сюр кё лэнсэртэ́н.",
+      "example": "Нет ничего менее надёжного, чем неопределённое.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "À bon entendeur, salut.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Французская поговорка",
+      "fame": "А бон антан-дё́р, салю́.",
+      "example": "Тому, кто понял намёк, привет.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Il vaut mieux faire que dire.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Французская пословица",
+      "fame": "Иль во мьё фэр кё ди́р.",
+      "example": "Лучше делать, чем говорить.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Qui trop embrasse mal étreint.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Пословица",
+      "fame": "Ки тро анбрас маль этрэ́н.",
+      "example": "Кто слишком много обнимает, плохо удерживает.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Petit à petit, l’oiseau fait son nid.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Пословица",
+      "fame": "Пёти а пёти́, луазо фэ сон ни́.",
+      "example": "Понемногу птица строит гнездо.",
+      "exampleTranslation": "",
+      "audio": ""
+    },
+    {
+      "cardType": "text",
+      "title": "Il ne faut jamais dire : fontaine, je ne boirai pas de ton eau.",
+      "work": "Французские крылатые выражения и афоризмы",
+      "author": "Пословица",
+      "fame": "Иль нё фо жамэ дир фон-тэ́н, жё нё буарэ па дё тон о́.",
+      "example": "Никогда не говори: из этого источника я не буду пить.",
+      "exampleTranslation": "",
+      "audio": ""
+    }
+  ]
+}
